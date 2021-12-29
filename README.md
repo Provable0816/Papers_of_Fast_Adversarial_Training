@@ -38,3 +38,33 @@
 |                                |         |                                             |                                                    |
 |                                |         |                                             |                                                    |
 
+
+
+
+
+# Conference_Papers_of_Fast_Adversarial_Training
+
+* [Understanding and Improving Fast Adversarial Training](https://arxiv.org/abs/2007.02617) (NeurIPS 2020) 
+  * [code](https://github.com/tml-epfl/understanding-fast-adv-training)
+  *  This paper proposes to .
+* [Towards Understanding Fast Adversarial Training](https://arxiv.org/abs/2006.03089) (arxiv 2020)
+  * 
+* [Fast is better than free: Revisiting adversarial training](https://arxiv.org/abs/2001.03994) (ICLR 2020) 
+  * [code](https://github.com/locuslab/fast_adversarial)
+  * 
+* [Adversarial Training for Free!](https://arxiv.org/abs/1904.12843) ( NeurIPS 2019)
+  * [code](https://github.com/ashafahi/free_adv_train)
+
+
+
+
+
+
+
+# Transactions_Papers_of_Fast_Adversarial_Training
+
+
+
+* [Boosting Fast Adversarial Training with Learnable Adversarial Initialization](https://arxiv.org/abs/2110.05007) (TIP 2021) 
+  * [code](https://github.com//jiaxiaojunQAQ//FGSM-SDI)
+  * This paper proposes to .
