@@ -1,6 +1,8 @@
 # Papers_of_Fast_Adversarial_Training
 
++ Related Papers for Fast Adversarial Training
 
++ stay updating
 
 ## 2022
 
