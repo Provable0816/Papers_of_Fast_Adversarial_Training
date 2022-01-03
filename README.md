@@ -4,7 +4,7 @@
 
 + Stay updating… 
 
-# Conference_Papers_of_Fast_Adversarial_Training
+# Papers_of_Fast_Adversarial_Training
 
 
 * [Understanding Catastrophic Overfitting in Adversarial Training](https://arxiv.org/abs/2105.02942) (done as a master thesis 2021)
@@ -54,12 +54,15 @@
   * [code](https://github.com/locuslab/fast_adversarial)
   * They identify a failure mode referred to as “catastrophic overfitting” which may have caused previous attempts to use FGSM adversarial training to fail.
 
-* [Adversarial Training for Free!](https://arxiv.org/abs/1904.12843) ( NeurIPS 2019)
+* [You Only Propagate Once: Accelerating Adversarial Training via Maximal Principle](https://arxiv.org/abs/1905.00877) (NeurIPS 2019)
+  * [code](https://github.com/a1600012888/YOPO-You-Only-Propagate-Once)
+  * In this paper, they show that adversarial training can be cast as a discrete time differential game. Through analyzing the Pontryagin's Maximal Principle (PMP) of the problem, they observe that the adversary update is only coupled with the parameters of the first layer of the network. This inspires us to restrict most of the forward and back propagation within the first layer of the network during adversary updates. This effectively reduces the total number of full forward and backward propagation to only one for each group of adversary updates
+
+* [Adversarial Training for Free!](https://arxiv.org/abs/1904.12843) (NeurIPS 2019)
   * [code](https://github.com/ashafahi/free_adv_train)
   * They present an algorithm that eliminates the overhead cost of generating adversarial examples by recycling the gradient information computed when updating model parameters.
 
 
-# Transactions_Papers_of_Fast_Adversarial_Training
 
 * [Boosting Fast Adversarial Training with Learnable Adversarial Initialization](https://arxiv.org/abs/2110.05007) (TIP 2021) 
   * [code](https://github.com//jiaxiaojunQAQ//FGSM-SDI)
