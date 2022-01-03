@@ -35,6 +35,7 @@
 
 * [Efficient Robust Training via Backward Smoothing](https://arxiv.org/abs/2010.01278) (2020) 
   * [code](https://github.com/uclaml/RayS)
+  * [OpenReview](https://openreview.net/forum?id=49V11oUejQ)(Reject)
   * They show that the smoothing effect by random initialization is not sufficient under the adversarial perturbation constraint. A new initialization strategy, backward smoothing, is proposed to address this issue and significantly improves both stability and model robustness over single-step robust training methods.
 
 * [Understanding and Improving Fast Adversarial Training](https://arxiv.org/abs/2007.02617) (NeurIPS 2020) 
@@ -43,13 +44,12 @@
   * They propose a new regularization method, GradAlign, that prevents catastrophic overfitting by explicitly maximizing the gradient alignment inside the perturbation set and improves the quality of the FGSM solution.
 
 * [Towards Understanding Fast Adversarial Training](https://arxiv.org/abs/2006.03089) (arxiv 2020)
-  *  They conduct experiments to understand the behavior of fast adversarial training and show the key to its success is the ability to recover from overfitting to weak attacks
-  * 
+  * [OpenReview](https://openreview.net/forum?id=NGBY716p1VR)(Reject)
+  * They conduct experiments to understand the behavior of fast adversarial training and show the key to its success is the ability to recover from overfitting to weak attacks
 
 * [Fast is better than free: Revisiting adversarial training](https://arxiv.org/abs/2001.03994) (ICLR 2020) 
   * [code](https://github.com/locuslab/fast_adversarial)
   * They identify a failure mode referred to as “catastrophic overfitting” which may have caused previous attempts to use FGSM adversarial training to fail.
-  * 
 
 * [Adversarial Training for Free!](https://arxiv.org/abs/1904.12843) ( NeurIPS 2019)
   * [code](https://github.com/ashafahi/free_adv_train)
