@@ -38,14 +38,17 @@
   * [OpenReview](https://openreview.net/forum?id=49V11oUejQ)(Reject)
   * They show that the smoothing effect by random initialization is not sufficient under the adversarial perturbation constraint. A new initialization strategy, backward smoothing, is proposed to address this issue and significantly improves both stability and model robustness over single-step robust training methods.
 
+* [Towards Understanding Fast Adversarial Training](https://arxiv.org/abs/2006.03089) (arxiv 2020)
+  * [OpenReview](https://openreview.net/forum?id=NGBY716p1VR)(Reject)
+  * They conduct experiments to understand the behavior of fast adversarial training and show the key to its success is the ability to recover from overfitting to weak attacks
+
+* [Single-step Adversarial training with Dropout Scheduling](https://arxiv.org/abs/2004.08628) (CVPR 2020)
+  *  (i) They show that models trained using single-step adversarial training method learn to prevent the generation of single-step adversaries, and this is due to over-fitting of the model during the initial stages of training, and (ii) to mitigate this effect, they propose a single-step adversarial training method with dropout scheduling
+
 * [Understanding and Improving Fast Adversarial Training](https://arxiv.org/abs/2007.02617) (NeurIPS 2020) 
   * [code](https://github.com/tml-epfl/understanding-fast-adv-training)
   * GradAlign Method
   * They propose a new regularization method, GradAlign, that prevents catastrophic overfitting by explicitly maximizing the gradient alignment inside the perturbation set and improves the quality of the FGSM solution.
-
-* [Towards Understanding Fast Adversarial Training](https://arxiv.org/abs/2006.03089) (arxiv 2020)
-  * [OpenReview](https://openreview.net/forum?id=NGBY716p1VR)(Reject)
-  * They conduct experiments to understand the behavior of fast adversarial training and show the key to its success is the ability to recover from overfitting to weak attacks
 
 * [Fast is better than free: Revisiting adversarial training](https://arxiv.org/abs/2001.03994) (ICLR 2020) 
   * [code](https://github.com/locuslab/fast_adversarial)
