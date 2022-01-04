@@ -4,7 +4,14 @@
 
 + Stay updating… 
 
-# Papers_of_Fast_Adversarial_Training
+# Contents 
+- <a href="#Papers_of_Fast_Adversarial_Training"> Papers_of_Fast_Adversarial_Training</a><br>
+- <a href="#Unfair problem in Adversarial Training">Unfair problem in Adversarial Training</a><br>
+
+
+
+<a id='Papers_of_Fast_Adversarial_Training'></a>
+## Papers_of_Fast_Adversarial_Training
 
 * [Revisiting and Advancing Fast Adversarial Training Through The Lens of Bi-Level Optimization](https://arxiv.org/abs/2112.12376)
   * [OpenReview](https://openreview.net/forum?id=gzeruP-0J29)
@@ -94,3 +101,13 @@
 * [Adversarial Training for Free!](https://arxiv.org/abs/1904.12843) (NeurIPS 2019)
   * [code](https://github.com/ashafahi/free_adv_train)
   * They present an algorithm that eliminates the overhead cost of generating adversarial examples by recycling the gradient information computed when updating model parameters.
+
+
+<a id='Unfair problem in Adversarial Training'></a>
+## Unfair problem in Adversarial Training
+
+* [Understanding the robustness-accuracy tradeoff by rethinking robust fairness](https://openreview.net/forum?id=bl9zYxOVwa)
+
+* [Analysis and Applications of Class-wise Robustness in Adversarial Training](https://arxiv.53yu.com/abs/2105.14240)
+
+* [To be Robust or to be Fair: Towards Fairness in Adversarial Training](https://arxiv.org/abs/2010.06121)
