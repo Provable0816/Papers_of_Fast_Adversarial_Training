@@ -7,17 +7,19 @@
 # Papers_of_Fast_Adversarial_Training
 
 * [Revisiting and Advancing Fast Adversarial Training Through The Lens of Bi-Level Optimization](https://arxiv.org/abs/2112.12376)
+  * [OpenReview](https://openreview.net/forum?id=gzeruP-0J29)
   * [code](https://github.com/normaluhr/fast_bat)
   * They propose to design FAST-AT from the perspective of bi-level optimization (BLO). They first make the key observation that the most commonly-used algorithmic specification of FAST-AT is equivalent to using some gradient descent-type algorithm to solve a bi-level problem involving a sign operation. However, the discrete nature of the sign operation makes it difficult to understand the algorithm performance. Based on the above observation, they propose a new tractable bi-level optimization problem, design and analyze a new set of algorithms termed Fast Bi-level AT (FAST-BAT). FAST-BAT is capable of defending sign-based projected gradient descent (PGD) attacks without calling any gradient sign method and explicit robust regularization. Furthermore, they empirically show that their method outperforms state-of-the-art FAST-AT baselines, by achieving superior model robustness without inducing robustness catastrophic overfitting, or suffering from any loss of standard accuracy.
 
 * [ℓ∞ -Robustness and Beyond: Unleashing Efficient Adversarial Training](https://arxiv.org/abs/2112.00378) 
+  * [OpenReview](https://openreview.net/forum?id=zfKQn4zN6sB)
   * In this paper, by leveraging the theory of coreset selection they show how selecting a small subset of training data provides a more principled approach towards reducing the time complexity of robust training. Unlike existing methods, their approach can be adapted to a wide variety of training objectives, including TRADES, ℓp-PGD, and Perceptual Adversarial Training. Their experimental results indicate that our approach speeds up adversarial training by 2-3 times, while experiencing a small reduction in the clean and robust accuracy.
 
 * [Subspace Adversarial Training](https://arxiv.org/abs/2111.12229)
   * [code](https://github.com/nblt/Sub-AT) (404 not found)
   * To control the growth of the gradient during the training, they propose a new AT method, subspace adversarial training (Sub-AT), which constrains the AT in a carefully extracted subspace. It successfully resolves both two kinds of overfitting and hence significantly boosts the robustness. In subspace, they also allow single-step AT with larger steps and larger radius, which further improves the robustness performance. 
 
-* [Local Linearity and Double Descent in Catastrophic Overfitting](https://arxiv.org/abs/2111.10754)
+* [Local Linearity and Double Descent in Catastrophic Overfitting](https://arxiv.org/abs/2111.10754) (CODS-COMAD 2022)
   * [code](https://github.com/nikilrselvam/linearity-orthogonality-dd) (waitting for code)
   * They experimentally demonstrate that maintaining high local linearity might be sufficient to prevent catastrophic overfitting but is not necessary. Further, inspired by Parseval networks, they introduce a regularization term to AT with FGSM to make the weight matrices of the network orthogonal and study the connection between orthogonality of the network weights and local linearity. Lastly, they identify the double descent phenomenon during the adversarial training process.  
 
@@ -37,6 +39,10 @@
 
 * [PGD-2 can be better than FGSM + GradAlign](https://openreview.net/forum?id=lifRwnIuAv0) (ICLR under review 2022)
   * [OpenReview](https://openreview.net/forum?id=lifRwnIuAv0)
+
+* [Gradient-Guided Dynamic Efficient Adversarial Training](https://arxiv.org/abs/2103.03076) 
+  * [code](https://github.com/locuslab/fast_adversarial)
+  * They propose the Dynamic Efficient Adversarial Training (DEAT), which gradually increases the adversarial iteration during training. Moreover, they theoretically reveal that the connection of the lower bound of Lipschitz constant of a given network and the magnitude of its partial derivative towards adversarial examples. Supported by this theoretical finding, they utilize the gradient's magnitude to quantify the effectiveness of adversarial training and determine the timing to adjust the training procedure
 
 * [ZeroGrad : Mitigating and Explaining Catastrophic Overfitting in FGSM Adversarial Training](https://arxiv.org/abs/2103.15476) (2021)
   * [code](https://github.com/rohban-lab/catastrophic_overfitting)
