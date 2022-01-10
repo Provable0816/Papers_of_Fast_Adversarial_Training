@@ -80,7 +80,7 @@
 
 * [Understanding and Improving Fast Adversarial Training](https://arxiv.org/abs/2007.02617) (NeurIPS 2020) 
   * [code](https://github.com/tml-epfl/understanding-fast-adv-training)
-  * GradAlign Method
+  * GradAlign Method -- Using cosine similarity to measure the distance of the logit of natural examples and adversarial examples
   * They propose a new regularization method, GradAlign, that prevents catastrophic overfitting by explicitly maximizing the gradient alignment inside the perturbation set and improves the quality of the FGSM solution.
 
 * [Towards Understanding Fast Adversarial Training](https://arxiv.org/abs/2006.03089) (arxiv 2020)
