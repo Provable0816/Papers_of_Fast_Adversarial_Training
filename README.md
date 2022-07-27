@@ -13,6 +13,12 @@
 <a id='Papers_of_Fast_Adversarial_Training'></a>
 ## Papers_of_Fast_Adversarial_Training
 
+
+* [Prior-Guided Adversarial Initialization for Fast Adversarial Training](https://arxiv.org/abs/2207.08859)
+  * [code](https://github.com/jiaxiaojunqaq/fgsm-pgi)
+  * They explore the difference between the training processes of SAT and FAT and observe that the attack success rate of adversarial examples (AEs) of FAT gets worse gradually in the late training stage, resulting in overfitting. They propose a prior-guided FGSM initialization method to avoid overfitting after investigating several initialization strategies, improving the quality of the AEs during the whole training process. The initialization is formed by leveraging historically generated AEs without additional calculation cost.
+
+
 * [Revisiting and Advancing Fast Adversarial Training Through The Lens of Bi-Level Optimization](https://arxiv.org/abs/2112.12376)
   * [OpenReview](https://openreview.net/forum?id=gzeruP-0J29)
   * [code](https://github.com/normaluhr/fast_bat)
